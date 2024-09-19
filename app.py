@@ -17,7 +17,7 @@ def validate_user_key(user_key):
     return os.path.exists(os.path.join(BASE_DIR, user_key))
 
 # App title
-st.title("Secure File Upload and Text Storage")
+st.title("Tunnel")
 
 # User key input to create or access a container
 user_key = st.text_input("Enter your secret key to access your container:", type="password")
